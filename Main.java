@@ -9,5 +9,6 @@ public class Main {
         boolean result = aSumB > cSumD;
         System.out.println(result);
         System.out.println(++aSumB > (cSumD-=2));
+        System.out.println(aSumB % 2 == 0 || cSumD % 2 == 0);
     }
 }
